@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Oreo Notification Channel</string>
+    <string name="movie_name">Enter Movie Name</string>
+    <string name="post_movie_notif">POST NOTIFICATIONS FOR MOVIE</string>
+    <string name="notif_settings">APP NOTIFICATION SETTINGS</string>
+    <string name="movie">Movies</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edtMovieName"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="@string/movie_name"
+        android:layout_margin="@dimen/margin"
+        android:inputType="text"
+        android:autofillHints="@string/movie"/>
+
+    <Button
+        android:id="@+id/btnMovieNotif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:text="@string/post_movie_notif"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btnNotifSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:text="@string/notif_settings"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
